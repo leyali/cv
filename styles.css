@@ -1,13 +1,25 @@
-styles
-
-body{
-    background-color: #abf0e9 ;
+body {
+  margin: 0
 }
 
-  h1{
-    color: Green;
-    front-size: 300px;
-  }
-  P {
-    Color : blue ;
-  }
+h1 {
+  magin-top: 0
+}
+ .top-container {
+   background-color: #E4F9F5
+ }
+
+ . middle-container: {
+   background-color: red;
+   width: 200px;
+ }
+
+ .bottom- container:{
+   background-color: blue
+   width : 200px;
+   height: 200px;
+ }
+
+ .pro{
+   text-decoraton: underline;
+ }
