@@ -2,12 +2,23 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather'serif;
+  font-size: 2em;
 }
 
 h1 {
   margin-top:0;
+
+  font-family:'Vladimir Script',sans-serif;
 }
 
+h2{
+  font-family:'Montserrat' sans-serif;
+}
+
+h3{
+    font-family:'Montserrat' sans-serif;
+}
  .top-container {
    background-color: #E4F9F5
  }
@@ -28,14 +39,14 @@ h1 {
   }
  .top-cloud{
    position: absolute;
-   right:300px;
-   top:50px;
+   right:100px;
+   top: 100px;
  }
 
 .bottom-clound {
   position: absolute;
-  left:200px;
-  bottom: 400px;
+  left:50px;
+  bottom: 600px;
 }
 
 }
