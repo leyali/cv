@@ -1,12 +1,11 @@
 
 body {
-  color: #40514E
+  background-color: #def4f0;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather'serif;
   font-size: 40px;
 }
-
 
 h1 {
   color: #66BFBF;
@@ -25,12 +24,22 @@ h2{
 
 h3{
   color: #11999E;
-    font-family:'Montserrat' sans-serif;
+  font-family:'Montserrat' sans-serif;
+}
+
+p{
+  line-height: 2
+}
+hr{
+  border: dotted; #EAF6FF6 6px;
+  border-bottom :none;
+  width:4%;
+
 }
  .top-container {
-   background-color: #E4F9F5;
+   background-color: #91d5c8;
    position:relative;
-   padding-top: 100px;
+
  }
  .middle-container: {
   margin:100px 0;
@@ -39,10 +48,10 @@ h3{
 
  }
 
- .bottom- container:{
-   background-color: blue;
-   width : 200px;
-   height: 200px;
+ .bottom-container:{
+   background-color:#668FBF;
+   padding: 50px 0 20px;
+
  }
  .skill-row{
    width: 50%
@@ -56,7 +65,9 @@ h3{
     width: 30px;
     margin:auto;
   }
-
+ .contact-message {
+   width: 40%;
+ }
   .top-cloud{
     position: absolute;
     right:100px;
@@ -66,20 +77,47 @@ h3{
   .bottom-clound {
    position: absolute;
    left:50px;
-   bottom: 5000px;
+   bottom: 500px;
   }
-
-
-
-
-
-
 
  .code-img {
    width: 25%;
    float:left;
    margin-right: 30px;
  }
+ .hob {
+   background: #11cdd4;
+   background-image:-moz-liner-gradient(top, #11cdd4, #11999c);
+   background-image:-ms-liner-gradient(top, #11cdd4, #11999c);
+   background-image:-o-liner-gradient(top, #11cdd4, #11999c);
+   background-image:linear-gradient(to bottom,#11cdd4, #11999c);
+   -webkit-border-radius: 8;
+   -moz-border-radius: 8;
+   border-radius: 8;
+   font-family:'Montserrat' sans-serif;
+   color: :#ffffff;
+   font-size: 50px;
+   padding: 20px 50px 20px 50px;
+   text-decoration: none;
+ }
+
+
+.btn {
+  background: #11cdd4;
+  background-image:-moz-liner-gradient(top, #11cdd4, #11999c);
+  background-image:-ms-liner-gradient(top, #11cdd4, #11999c);
+  background-image:-o-liner-gradient(top, #11cdd4, #11999c);
+  background-image:linear-gradient(to bottom,#11cdd4, #11999c);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8;
+  font-family:'Montserrat' sans-serif;
+  color: :#ffffff;
+  font-size: 50px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+}
+
   .code-skill-description{
       clear: left
   }
